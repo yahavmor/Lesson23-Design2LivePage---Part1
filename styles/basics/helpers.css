@@ -1,0 +1,25 @@
+.flex{
+      display: flex;
+}
+.grid{
+      display: grid;
+}
+
+.flex.align-items{
+      align-items: center;
+}
+
+.flex.space-between{
+      justify-content: space-between;
+}
+
+.clean-list{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      gap: 100px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

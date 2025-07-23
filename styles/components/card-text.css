@@ -1,0 +1,10 @@
+.card-text{
+    width: 450px;
+    gap: 20px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}

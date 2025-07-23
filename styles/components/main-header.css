@@ -1,0 +1,9 @@
+.main-header {
+    height: 131px;
+    background-color: var(--clr-main-header);
+    grid-template-columns: minmax(100px,1fr) minmax(auto,980px) minmax(100px,1fr);
+}
+
+.main-header-content {
+    grid-column: 2;
+}

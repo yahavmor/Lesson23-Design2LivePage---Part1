@@ -1,0 +1,14 @@
+*{
+      box-sizing: border-box;
+}
+
+html{
+      font-family: serif;
+      color: var(--clr-primary-text);
+      line-height: 1.2;
+}
+
+body{
+      font-size: 0.875rem;
+      margin: 0;
+}
