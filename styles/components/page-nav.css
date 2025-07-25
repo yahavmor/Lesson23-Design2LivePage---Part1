@@ -1,0 +1,13 @@
+.page-nav{
+    padding: 10px;
+}
+.next, .prev{
+    color: #818181;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2em;
+    padding:  1em 1.4em;
+    border: none;
+    cursor: pointer;
+
+}

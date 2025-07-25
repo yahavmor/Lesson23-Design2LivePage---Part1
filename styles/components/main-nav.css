@@ -1,0 +1,30 @@
+.main-nav{
+    height: 100%;
+    place-items: center;
+
+}
+
+.main-nav ul{
+    grid-auto-flow: column;
+    border: 1px solid black;
+    height: 100%;
+
+}
+
+ul li{
+    width: 133px;
+}
+
+ul li a {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    filter: drop-shadow(0px 1px 0px #1e1e1e);
+    text-decoration: none; 
+    border: 1px solid black;
+    
+}

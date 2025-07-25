@@ -1,0 +1,24 @@
+.main-footer{
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 2fr;
+    align-items: center;
+    gap: 40px;
+    justify-items: center;
+    padding-top: 70px;
+    background-color: rgb(196, 196, 196)
+}
+.footer-logo{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #292929;
+    font-family: "Eurofurenceregular", sans-serif;
+}
+.social-links{
+    gap: 20px;
+}
+.social-links img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

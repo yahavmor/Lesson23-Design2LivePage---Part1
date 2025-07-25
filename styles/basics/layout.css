@@ -1,7 +1,12 @@
 
 .main-layout{
       display: grid;
-      grid-template-columns: minmax(100px,1fr) minmax(auto,980px) minmax(100px,1fr);
+      grid-template-columns:  minmax(100px,1fr) minmax(auto,980px) minmax(100px,1fr);
+}
+main{
+      border: 1px solid #b8b8b8;
+      border-top: none;
+      padding-top: 70px;
 }
 
 .main-layout>:not(.full){
