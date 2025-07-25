@@ -6,4 +6,15 @@
     border: 2px solid #c2c2c2;
     color: #c2c1c1;
     font-weight: 700;
+    cursor: pointer;
+}
+.card-button:hover{
+    border-color:  #58c93a;
+    color:  #58c93a;
+}
+.card-button:hover::after{
+    content: "→";
+    color: #58c93a;
+    font-weight: 700;
+    margin-left: 5px;
 }

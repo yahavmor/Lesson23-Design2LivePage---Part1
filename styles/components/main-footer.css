@@ -5,20 +5,48 @@
     gap: 40px;
     justify-items: center;
     padding-top: 70px;
-    background-color: rgb(196, 196, 196)
+    background-color:#f8f8f8;
+    box-shadow: inset 0px 1px 0px #e1e0e0;
+
 }
-.footer-logo{
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: #292929;
-    font-family: "Eurofurenceregular", sans-serif;
+.main-footer img{
+    width: 100px;
+    height: 50px;
+}
+.footer-copyrights{
+    font-size: 13px;
+    line-height: 20px;
+    color: #a6a6a6;
+    font-weight: 400;
 }
 .social-links{
     gap: 20px;
 }
-.social-links img{
+.sqr{
     width: 40px;
     height: 40px;
+    position: relative;
+    background-color: #292929;
     cursor: pointer;
+
+}
+.sqr i{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.facebook:hover{
+    background-color: #3b5998;
+}
+.twiter:hover{
+    background-color: #1da1f2;
+}
+.be:hover{
+    background-color: #1769ff;
+}
+.basketball:hover{
+    background-color: #fbb034;
 }

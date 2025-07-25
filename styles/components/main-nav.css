@@ -23,8 +23,12 @@ ul li a {
     letter-spacing: 1px;
     font-weight: 700;
     font-family: "Lato", sans-serif;
-    filter: drop-shadow(0px 1px 0px #1e1e1e);
     text-decoration: none; 
     border: 1px solid black;
     
+}
+ul li a:hover {
+    background-color: #1e1e1e;
+    color: #58c93a;
+    border-bottom: 5px solid  #58c93a;
 }

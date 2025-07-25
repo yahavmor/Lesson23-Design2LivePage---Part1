@@ -7,6 +7,8 @@ main{
       border: 1px solid #b8b8b8;
       border-top: none;
       padding-top: 70px;
+      font-family: 'Lato', sans-serif;
+
 }
 
 .main-layout>:not(.full){

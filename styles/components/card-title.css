@@ -2,6 +2,11 @@
     font-size: 28px;
     font-weight: 700;
     line-height: 30px;
-    color: #4f4f4f;
-    font-family: 'Lato-Bold'
+    margin: 0;
+
+    color: #4f4f4f;       
+}
+@font-face {
+  font-family: 'Lato',sans-serif;
+  src: url('fonts/Lato-Regular.ttf') format('truetype');
 }
