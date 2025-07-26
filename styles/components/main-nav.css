@@ -1,14 +1,10 @@
 .main-nav{
     height: 100%;
-    place-items: center;
-
 }
 
 .main-nav ul{
     grid-auto-flow: column;
     border: 1px solid black;
-    height: 100%;
-
 }
 
 ul li{
@@ -17,18 +13,17 @@ ul li{
 
 ul li a {
     height: 100%;
-    display: grid;
     place-items: center;
-    color: #ffffff;
     letter-spacing: 1px;
     font-weight: 700;
     font-family: "Lato", sans-serif;
     text-decoration: none; 
     border: 1px solid black;
+    color: white;
     
 }
 ul li a:hover {
     background-color: #1e1e1e;
-    color: #58c93a;
-    border-bottom: 5px solid  #58c93a;
+    color: var(--clr-card-button);
+    border-bottom: 5px solid  var(--clr-card-button)
 }

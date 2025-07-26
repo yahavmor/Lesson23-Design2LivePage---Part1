@@ -2,19 +2,17 @@
     width: 186px;
     height: 40px;
     border-radius: 20px;
-    background-color: white;
     border: 2px solid #c2c2c2;
     color: #c2c1c1;
     font-weight: 700;
-    cursor: pointer;
 }
 .card-button:hover{
-    border-color:  #58c93a;
-    color:  #58c93a;
+    border-color:  var(--clr-card-button);
+    color:  var(--clr-card-button)
 }
 .card-button:hover::after{
     content: "→";
-    color: #58c93a;
+    color: var(--clr-card-button);
     font-weight: 700;
     margin-left: 5px;
 }

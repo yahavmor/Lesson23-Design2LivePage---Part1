@@ -1,11 +1,12 @@
 *{
       box-sizing: border-box;
+      transition: all 0.3s ease;
 }
 
 html{
       font-family: serif;
+      font-size: 1rem;
       color: var(--clr-primary-text);
-      line-height: 1.2;
 }
 
 body{
